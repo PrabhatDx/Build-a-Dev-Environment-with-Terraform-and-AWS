@@ -18,9 +18,9 @@ I have successfully set up a developer environment on AWS using Terraform and Vi
 🏗️ 2. AWS Infrastructure Setup:
 🌐 VPC: Built a Virtual Private Cloud (VPC) to isolate the developer environment.
 
-🌍 Internet Gateway: Attached an Internet Gateway to the VPC to enable internet access.
+🌍 Internet Gateway: Attached is an Internet Gateway to the VPC to enable internet access.
 
-🚦 Public Route Table: Set up a route table to direct internet-bound traffic through the Internet Gateway.
+🚦 Public Route Table: Set up a routeing table to direct internet-bound traffic through the Internet Gateway.
 
 🔒 Security Group: Defined a security group to allow the necessary inbound and outbound traffic.
 
@@ -37,10 +37,10 @@ I have successfully set up a developer environment on AWS using Terraform and Vi
 🚧 Issues with terraform apply:
 
 🛑 Resource Addition Problems: Encountered issues where some resources were not added as expected, leading to an incomplete infrastructure setup. Error messages indicated problems with resource dependencies and creation order.
-🔍 Debugging Approach: Reviewed the Terraform configuration files and state, re-ran plans, and applied specific targets to isolate and resolve problematic resources.
-💡 Challenges with terraform console:
+🔍 Debugging Approach: Reviewed the Terraform configuration files and state, re-ran plans and applied specific targets to isolate and resolve problematic resources.
+💡 Challenges with Terraform console:
 
-❌ Incorrect Outputs: Some variables were not resolving correctly, particularly in complex expressions during the use of terraform console.
+❌ Incorrect Outputs: Some variables were not resolving correctly, particularly in complex expressions during the use of the terraform console.
 🧩 Troubleshooting: Simplified expressions and broke down logic to identify and resolve the root causes of these errors.
 📉 Configuration Issues with .tfvars File:
 
